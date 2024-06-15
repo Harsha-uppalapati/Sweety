@@ -1,0 +1,42 @@
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 90%;
+  max-width: 400px;
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.card-description {
+  margin-top: 10px;
+  color: #666;
+  font-size: 1em;
+}
+
+@media (min-width: 600px) {
+  .card {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 60%;
+  }
+}
