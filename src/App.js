@@ -1,8 +1,18 @@
-import React from "react";
-import "./App.css"
+// App.js
+
+import React, { useState } from "react";
+
+import Celebration from "./Components/Celebration";
+import "./App.css";
 const App = () => {
+  const [showCelebration, setShowCelebration] = useState(false);
+
   return (
-    <>
+    <div className="App">
+      <div className="other-content">
+        {/* Other content beneath the celebration */}
+      </div>
+      <Celebration />
       <div className="card">
         <img src="https://via.placeholder.com/400x200" alt="Card image" />
         <div className="card-content">
@@ -13,7 +23,7 @@ const App = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

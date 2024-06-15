@@ -1,0 +1,39 @@
+/* styles.css */
+
+.celebration {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.celebration.visible {
+  display: flex; /* Show when visible */
+}
+
+.papers-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none; /* Prevents interaction with the papers */
+}
+
+.paper {
+  width: 20px; /* Adjust size of each paper */
+  height: 20px; /* Adjust size of each paper */
+  background-color: #fff; /* Initial color (will be overwritten) */
+  border-radius: 50%;
+  z-index: 1; /* Ensure papers are above other content */
+}
+.buttonStart {
+  position: absolute;
+  margin: 138px;
+  top: 202px;
+}
