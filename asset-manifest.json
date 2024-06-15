@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io/Sweety/static/css/main.4cec16d8.css",
+    "main.js": "/github.io/Sweety/static/js/main.7c1ffad1.js",
+    "index.html": "/github.io/Sweety/index.html",
+    "main.4cec16d8.css.map": "/github.io/Sweety/static/css/main.4cec16d8.css.map",
+    "main.7c1ffad1.js.map": "/github.io/Sweety/static/js/main.7c1ffad1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cec16d8.css",
+    "static/js/main.7c1ffad1.js"
+  ]
+}
