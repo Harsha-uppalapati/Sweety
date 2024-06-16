@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/github.io/Sweety/static/css/main.a8336243.css",
-    "main.js": "/github.io/Sweety/static/js/main.8d4f8e56.js",
-    "index.html": "/github.io/Sweety/index.html",
-    "main.a8336243.css.map": "/github.io/Sweety/static/css/main.a8336243.css.map",
-    "main.8d4f8e56.js.map": "/github.io/Sweety/static/js/main.8d4f8e56.js.map"
+    "main.css": "/Sweety/static/css/main.a8336243.css",
+    "main.js": "/Sweety/static/js/main.e96b6e3e.js",
+    "index.html": "/Sweety/index.html",
+    "main.a8336243.css.map": "/Sweety/static/css/main.a8336243.css.map",
+    "main.e96b6e3e.js.map": "/Sweety/static/js/main.e96b6e3e.js.map"
   },
   "entrypoints": [
     "static/css/main.a8336243.css",
-    "static/js/main.8d4f8e56.js"
+    "static/js/main.e96b6e3e.js"
   ]
 }
