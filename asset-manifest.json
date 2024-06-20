@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Sweety/static/css/main.a8336243.css",
-    "main.js": "/Sweety/static/js/main.e96b6e3e.js",
+    "main.css": "/Sweety/static/css/main.27d22241.css",
+    "main.js": "/Sweety/static/js/main.f5600367.js",
     "index.html": "/Sweety/index.html",
-    "main.a8336243.css.map": "/Sweety/static/css/main.a8336243.css.map",
-    "main.e96b6e3e.js.map": "/Sweety/static/js/main.e96b6e3e.js.map"
+    "main.27d22241.css.map": "/Sweety/static/css/main.27d22241.css.map",
+    "main.f5600367.js.map": "/Sweety/static/js/main.f5600367.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8336243.css",
-    "static/js/main.e96b6e3e.js"
+    "static/css/main.27d22241.css",
+    "static/js/main.f5600367.js"
   ]
 }
