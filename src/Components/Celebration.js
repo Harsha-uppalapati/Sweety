@@ -1,6 +1,6 @@
 // Celebration.js
 
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import "./Celebration.css"; // Import the CSS file for styling
 
@@ -64,9 +64,9 @@ const Celebration = ({ isVisible }) => {
     const paperCount = 150; // Number of papers to fall
 
     // Generate papers with animation properties
-    const newPapers = Array.from({ length: paperCount }, (_, index) => {
-      const key = `paper-${index}`;
-      const color = COLORS[index % COLORS.length]; // Cycle through colors
+    const newPapers = Array.from({ length: paperCount }, () => {
+      const key = `paper-${Date.now()}-${Math.random()}`;
+      const color = COLORS[Math.floor(Math.random() * COLORS.length)];
       const delay = Math.random() * 1000;
 
       return <Paper key={key} color={color} delay={delay} />;
