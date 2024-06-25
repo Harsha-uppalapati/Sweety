@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import "./Celebration.css"; // Import the CSS file for styling
-
+import Nav from "./Nav";
 const COLORS = [
   "#FF6633",
   "#FFB399",
@@ -78,9 +78,10 @@ const Celebration = ({ isVisible }) => {
 
   return (
     <div>
-      <button className="buttonStart" onClick={handleClick}>
+      <Nav />
+      {/* <button className="buttonStart" onClick={handleClick}>
         ColourPop
-      </button>
+      </button> */}
 
       <div className="papers-container">{papers}</div>
     </div>

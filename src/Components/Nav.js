@@ -27,7 +27,7 @@ CurrentDate();
 function Navbar() {
   return (
     <nav className="navbar">
-      <p>hi hi</p>
+      <p>Be happy</p>
       <p style={{ color: "purple" }}>{CurrentDate()}</p>
       <Dropdown />
     </nav>
@@ -37,11 +37,10 @@ function Navbar() {
 function Dropdown() {
   return (
     <div className="dropdown">
-      <button className="dropbtn">List</button>
+      <button className="dropbtn">Songs</button>
       <div className="dropdown-content">
-        <a href="#link1">Link 1</a>
-        <a href="#link2">Link 2</a>
-        <a href="#link3">Link 3</a>
+        <a href="#link1">kammani ee prema</a>
+        <a href="#link2">Samayama</a>
       </div>
     </div>
   );
