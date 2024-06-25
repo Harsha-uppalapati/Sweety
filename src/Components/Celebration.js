@@ -1,7 +1,7 @@
 // Celebration.js
 
 import React, { useState } from "react";
-import { useSpring, animated } from "react-spring";
+// import { useSpring, animated } from "react-spring";
 import "./Celebration.css"; // Import the CSS file for styling
 import Nav from "./Nav";
 const COLORS = [
@@ -69,7 +69,7 @@ const Celebration = ({ isVisible }) => {
       const color = COLORS[Math.floor(Math.random() * COLORS.length)];
       const delay = Math.random() * 1000;
 
-      return <Paper key={key} color={color} delay={delay} />;
+      return <></>;
     });
 
     // Add new papers to the state
@@ -89,36 +89,35 @@ const Celebration = ({ isVisible }) => {
 };
 
 // Paper component using react-spring for animation
-const Paper = ({ color, delay }) => {
-  const animationProps = useSpring({
-    from: {
-      opacity: 1,
-      transform: `translate(-50%, -50%) rotate(${
-        Math.random() * 360
-      }deg) scale(1)`,
-      position: "absolute",
-      left: "50%",
-      top: "50%",
-    },
-    to: {
-      opacity: 0,
-      transform: `translate(-50%, -50%) rotate(${
-        Math.random() * 360
-      }deg) scale(0.2)`,
-      position: "absolute",
-      left: `${Math.random() * 100}vw`,
-      top: `${Math.random() * 100}vh`,
-    },
-    config: { tension: 150, friction: 10, duration: 2000 },
-    delay,
-  });
+// const Paper = ({ color, delay }) => {
+//   const animationProps = useSpring({
+//     from: {
+//       opacity: 1,
+//       transform: `translate(-50%, -50%) rotate(${
+//         Math.random() * 360
+//       }deg) scale(1)`,
+//       position: "absolute",
+//       left: "50%",
+//       top: "50%",
+//     },
+//     to: {
+//       opacity: 0,
+//       transform: `translate(-50%, -50%) rotate(${
+//         Math.random() * 360
+//       }deg) scale(0.2)`,
+//       position: "absolute",
+//       left: `${Math.random() * 100}vw`,
+//       top: `${Math.random() * 100}vh`,
+//     },
+//     config: { tension: 150, friction: 10, duration: 2000 },
+//     delay,
+//   });
 
-  return (
-    <animated.div
-      className="paper"
-      style={{ ...animationProps, backgroundColor: color }}
-    ></animated.div>
-  );
-};
+// return (
+//   <animated.div
+//     className="paper"
+//     style={{ ...animationProps, backgroundColor: color }}
+//   ></animated.div>
+// );
 
 export default Celebration;
