@@ -31,8 +31,8 @@ function Login() {
   };
   let handleLogin = () => {
     if (
-      getCurrentTime().time12hr === password ||
-      getCurrentTime().time24hr === password
+      getCurrentTime().time12hr + "K" === password ||
+      getCurrentTime().time24hr + "K" === password
     ) {
       navigate("/Home");
     }
