@@ -95,7 +95,7 @@ function Dropdown() {
             selectedSong === "kammani ee prema"
               ? `${process.env.PUBLIC_URL}/Kammani Ee Premalekhani.mp3`
               : selectedSong === "Samayama"
-              ? `${process.env.PUBLIC_URL}/samayama.mp3`
+              ? `${process.env.PUBLIC_URL}/Samayama.mp3`
               : ""
           }
           type="audio/mpeg"
