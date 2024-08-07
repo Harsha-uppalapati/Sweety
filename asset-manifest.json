@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Sweety/static/css/main.ba58ed3b.css",
-    "main.js": "/Sweety/static/js/main.cf088f25.js",
+    "main.js": "/Sweety/static/js/main.f5ee0b3f.js",
     "index.html": "/Sweety/index.html",
     "main.ba58ed3b.css.map": "/Sweety/static/css/main.ba58ed3b.css.map",
-    "main.cf088f25.js.map": "/Sweety/static/js/main.cf088f25.js.map"
+    "main.f5ee0b3f.js.map": "/Sweety/static/js/main.f5ee0b3f.js.map"
   },
   "entrypoints": [
     "static/css/main.ba58ed3b.css",
-    "static/js/main.cf088f25.js"
+    "static/js/main.f5ee0b3f.js"
   ]
 }
